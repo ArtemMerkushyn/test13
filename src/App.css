@@ -42,9 +42,9 @@
 }
 
 .counter {
-  background: #fff;
-  color: #000;
+  color: #fff;
   font-size: 30px;
   text-transform: uppercase;
   border-radius: 50%;
+  border: 7px solid #61dafbaa;
 }
