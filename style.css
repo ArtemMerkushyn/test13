@@ -2,3 +2,8 @@ body {
     color: #000;
     background: #fff;
 }
+
+nav {
+    display: flex;
+    gap: 20px;
+}
