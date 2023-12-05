@@ -6,6 +6,10 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
 
+  const f1 = () => {
+    setCount(count => count + 2)
+  }
+
   return (
     <>
       <div>
@@ -18,7 +22,7 @@ function App() {
       </div>
       <h1>Vite13 + React13</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
+        <button onClick={f1}>
           count is {count}
         </button>
         <p>
