@@ -3,7 +3,10 @@ body {
     background: #fff;
 }
 
-nav {
+header {
     display: flex;
-    gap: 20px;
+    gap: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-bottom: 2px solid #000;
 }
